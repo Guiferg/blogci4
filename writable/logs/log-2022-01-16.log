@@ -1,0 +1,52 @@
+CRITICAL - 2022-01-16 11:12:13 --> syntax error, unexpected ''errors'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('comentario/stor...')
+#1 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('comentario/stor...')
+#2 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\guilh\Desktop\arqci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\guilh\\...')
+#6 {main}
+CRITICAL - 2022-01-16 11:43:09 --> Undefined variable: post
+#0 C:\Users\guilh\Desktop\arqci4\app\Views\form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\guilh\\...', 11, Array)
+#1 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\guilh\\...')
+#2 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\guilh\Desktop\arqci4\app\Controllers\Post.php(27): view('form', Array)
+#5 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Post->create()
+#6 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\guilh\Desktop\arqci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\guilh\\...')
+#10 {main}
+CRITICAL - 2022-01-16 11:43:41 --> Undefined variable: post
+#0 C:\Users\guilh\Desktop\arqci4\app\Views\form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\guilh\\...', 11, Array)
+#1 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\guilh\\...')
+#2 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\Users\guilh\Desktop\arqci4\app\Controllers\Post.php(27): view('form', Array)
+#5 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Post->create()
+#6 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\guilh\Desktop\arqci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\guilh\\...')
+#10 {main}
+CRITICAL - 2022-01-16 16:37:14 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('post/create')
+#1 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('post/create')
+#2 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\guilh\Desktop\arqci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\guilh\\...')
+#6 {main}
+CRITICAL - 2022-01-16 17:19:47 --> Undefined variable: session
+#0 C:\Users\guilh\Desktop\arqci4\app\Views\sucesso.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\guilh\\...', 9, Array)
+#1 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\guilh\\...')
+#2 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('sucesso', Array, true)
+#4 C:\Users\guilh\Desktop\arqci4\app\Controllers\Post.php(47): view('sucesso')
+#5 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Post->sucesso()
+#6 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Post))
+#7 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\guilh\Desktop\arqci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\guilh\Desktop\arqci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\guilh\\...')
+#10 {main}
